@@ -1,5 +1,5 @@
 ---
-title: the use of stack and queue
+title: 3.3 the use of stack and queue
 ---
 
 若要熟练掌握栈和队列 ，需要实操 。

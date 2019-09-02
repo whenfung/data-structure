@@ -1,5 +1,5 @@
 ---
-title: 1. 绪论
+title: 1. introduction
 ---
 
 ## 1. 数据结构的基本概念
