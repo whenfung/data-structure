@@ -83,7 +83,7 @@ rtag=0 表示 rchild 域指示结点的右孩子；rtag=1 表示 rchild 域指�
 
 以中序线索二叉树的建立为例。指针 pre 指向中序遍历时上一个刚刚访问过的结点，用它来表示各结点访问的前后关系。
 
-[算法实现查看](https://github.com/professordeng/algorithm/blob/master/bitree/ThreadedBiTree.cpp)
+[算法实现查看](https://github.com/professordeng/algorithm/blob/master/tree/ThreadedBiTree.cpp)
 
 有时为了方便，仿照线性表的存储结构，在二叉树的线索链表上也添加一个头结点，并令其 lchild 域的指针指向二叉树的根结点，令其 rchild 域的指针指向中序遍历时访问的最后一个结点；反之，令二叉树中序序列的第一个结点的 lchild 域的指针和最后一个结点的 rchild 域的指针均指向头结点 。这好比为二叉树建立了一个双向线索链表，即可以从第一个结点起顺后继进行遍历，又可从最后一个结点起顺前驱进行遍历 。
 
